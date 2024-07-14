@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main{
+    height: 100vh;
+    width: 100%;
+    background-color: #c7c6c6;
+    position: relative;
+}
+
+.heading{
+    height: 180px;
+    width: 40%;
+    position: absolute;
+    top: 35%;
+    left: 12%;
+}
+
+.heading h1{
+    color: #2a67ea;;
+    font-size: 60px;
+}
+
+.heading p{
+    font-size: 33px;
+}
+
+.login {
+    height: 400px;
+    width: 350px;
+    background-color: #fff;
+    position: absolute;
+    top: 20%;
+    left: 65%;
+}
+
+.login > input{
+    padding: 10px 8px;
+    width: 300px;
+    margin: 20px 23px;
+    line-height: -10px;
+    margin-bottom: 2px;
+    height: 50px;
+    font-size: 16px;
+}
+
+.btn{
+    height: 50px;
+    margin: 15px 25px;
+    width: 300px;
+    background-color: #2a67ea;;
+    outline: none;
+    border: none;
+}
+
+.btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.login > p{
+    width: 80%;
+    margin: 10px 120px;
+    color: #2a67ea;
+}
+
+hr{
+    margin: 30px 30px;
+    height: 0px;
+    border: none;
+    border-top: 1px solid gray;
+}
+
+.btn2{
+    margin: 8px 95px;
+    width: 170px;
+    height: 40px;
+    background-color: rgb(93, 227, 93);
+    border: none;
+    outline: none;
+}
+
+.btn2 a{
+    text-decoration: none;
+    color: white;
+}
